@@ -12,7 +12,7 @@ Firstly, we build a Mask-Net with Self-pixel Attention (SA) and Cross-pixel Atte
 Secondly, the predicted snow mask is sent into the specially designed GF-Net to adaptively guide the model to remove snow. Finally, an efficient Reconstruct-Net is used to remove the veiling effect and correct the image to reconstruct the final snow-free image. 
 Extensive experiments show that our SMGARN numerically outperforms all existing snow removal methods, and the reconstructed images are clearer in visual contrast. All codes will be available.
 
-![](fig1.png)
+![](./figs/fig1.png)
 
 ##Prerequisites
 * Python 3.8
@@ -62,10 +62,10 @@ After the above command is run, a file named test will be generated in experimen
 ## Performance
 
 ### Results
-![](result1.png)
+![](./figs/result1.png)
 
-![](result2.png)
+![](./figs/result2.png)
 
-![](result3.png)
+![](./figs/result3.png)
 
 ### All pre-trained model will be provided soon.
